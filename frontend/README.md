@@ -1,12 +1,26 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a **lightweight, high-performance setup** for running React in Vite with Hot Module Replacement (HMR) and pre-configured ESLint rules to keep your code clean.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Official Plugins
 
-## Expanding the ESLint configuration
+Two official plugins are available to enhance your development experience:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react)**  
+  Uses **Babel** to enable **Fast Refresh** for a smooth React development workflow.
+
+- **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)**  
+  Uses **SWC** for **ultra-fast Fast Refresh**, providing a lightweight alternative to Babel.
+
+---
+
+## ESLint & TypeScript Recommendations
+
+For production-grade applications, we highly recommend:
+
+- **Using TypeScript** for type safety.  
+- Enabling **type-aware ESLint rules** via [`typescript-eslint`](https://typescript-eslint.io).  
+
+Check out the [React + TypeScript Vite template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for guidance on integrating TypeScript and advanced linting into your project.
